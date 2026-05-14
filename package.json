@@ -19,5 +19,10 @@
         "path": "./themes/Penguin-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@secretlint/secretlint-rule-no-dotenv": "^13.0.0",
+    "@secretlint/secretlint-rule-preset-recommend": "^13.0.0",
+    "secretlint": "^13.0.0"
   }
 }
