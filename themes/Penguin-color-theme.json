@@ -2,15 +2,50 @@
 	"name": "Penguin",
 	"colors": {
 		"editor.background": "#1a1b26",
-		"editor.foreground": "#a9b1d6",
+		"editor.foreground": "#ffffff",
 		"activityBar.background": "#16161e",
 		"sideBar.background": "#16161e",
 		"statusBar.background": "#16161e",
-		"statusBar.foreground": "#787c99",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.debuggingBackground": "#16161e",
+		"statusBar.debuggingForeground": "#ffffff",
+		"statusBar.noFolderBackground": "#16161e",
+		"statusBar.noFolderForeground": "#ffffff",
+		"statusBarItem.remoteBackground": "#16161e",
+		"statusBarItem.remoteForeground": "#ffffff",
 		"titleBar.activeBackground": "#1a1b26",
 		"titleBar.activeForeground": "#a9b1d6",
 		"sideBarTitle.foreground": "#787c99",
-		"activityBarBadge.background": "#ff9e64"
+		"activityBarBadge.background": "#ff9e64",
+		"tab.activeBackground": "#1a1b26",           // Background of the active tab
+		"tab.inactiveBackground": "#1e1f2c",         // Background of inactive tabs
+		"tab.activeForeground": "#ffffff",           // Text color of the active tab
+		"tab.activeBorder": "#ff9e64",                // Border at the bottom of the active tab
+		"button.background": "#ff9e64",
+		"button.foreground": "#1a1b26",
+		"button.hoverBackground": "#ffb38a",
+		"button.secondaryBackground": "#41a6b5",
+		"button.secondaryForeground": "#1a1b26",
+		"button.secondaryHoverBackground": "#5dbfcb",
+		"gitDecoration.addedResourceForeground": "#41a6b5",
+		"gitDecoration.modifiedResourceForeground": "#41a6b5",
+		"gitDecoration.untrackedResourceForeground": "#41a6b5",
+		"gitDecoration.renamedResourceForeground": "#41a6b5",
+		"gitDecoration.submoduleResourceForeground": "#41a6b5",
+		"gitDecoration.conflictingResourceForeground": "#ff9e64",
+		"gitDecoration.deletedResourceForeground": "#c53b53",
+		"scmGraph.foreground1": "#ff9e64",
+		"scmGraph.foreground2": "#41a6b5",
+		"scmGraph.foreground3": "#ffb38a",
+		"scmGraph.foreground4": "#5dbfcb",
+		"scmGraph.foreground5": "#e08952",
+		"charts.orange": "#ff9e64",
+		"charts.blue": "#41a6b5",
+		"charts.red": "#f7768e",
+		"charts.green": "#9ece6a",
+		"charts.yellow": "#e0af68",
+		"charts.purple": "#9d7cd8",
+		"charts.lines": "#565f89"
 	},
 	"tokenColors": [
 		{
@@ -37,6 +72,11 @@
 			"name": "Types, Structs, Classes",
 			"scope": ["entity.name.type", "support.type", "entity.name.class", "support.class"],
 			"settings": { "foreground": "#41a6b5" }
+		},
+		{
+			"name": "Template and Type Parameters",
+			"scope": ["entity.name.type.template", "variable.parameter.template", "storage.type.template"],
+			"settings": { "foreground": "#ff9e64" }
 		},
 		{
 			"name": "Constants, Numbers, Tailwind Utility Classes, Attributes",
